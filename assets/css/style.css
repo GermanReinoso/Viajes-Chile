@@ -7,9 +7,24 @@ body {
 }
 
 i {
-   background-color: aqua;
+   background-color: skyblue;
    width: 100%;
    height: 20px;
    vertical-align: middle;
    
+}
+
+.bg-card {
+    background-color: skyblue;
+    color: white;
+}
+
+.img-card {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.card-text {
+    text-align: left;
 }
