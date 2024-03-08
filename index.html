@@ -17,11 +17,11 @@
 
 </head>
 
-<body>
+<body class="scroll" data-bs-target="#navbar" data-bs-spy="scroll">
 
     <!-- BARRA DE NAVEGACION START-->
     <header>
-        <nav class="navbar background-color: transparent ! important; text-light fixed-top">
+        <nav id="navbar" class="navbar background-color: transparent ! important; text-light fixed-top">
             <div class="container-fluid">
                 <div class="d-flex">
                     <a class="navbar-brand" href="#">
@@ -30,10 +30,10 @@
                     <p class="mt-3"><a class="navbar-brand text-light" href="#">Viajes Chile</a></p>
                 </div>
                 <div>
-                    <a class="navbar-brand text-light" href="#">Inicio</a>
-                    <a class="navbar-brand text-light" href="#">Quiénes somos</a>
-                    <a class="navbar-brand text-light" href="#">Destacados</a>
-                    <a class="navbar-brand text-light" href="#">Contacto</a>
+                    <a href="#Inicio" class="navbar-brand text-light" href="#">Inicio</a>
+                    <a href="#Quiénes-somos" class="navbar-brand text-light" href="#">Quiénes somos</a>
+                    <a href="#Destacados" class="navbar-brand text-light" href="#">Destacados</a>
+                    <a href="#Contacto" class="navbar-brand text-light" href="#">Contacto</a>
                 </div>
             </div>
         </nav>
@@ -44,7 +44,7 @@
 
 
     <!--CAROUSEL START-->
-    <section>
+    <section id="Inicio">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -73,7 +73,7 @@
 
     <!--QUIÉNES SOMOS? START-->
     <section>
-        <h2 class="text-light text-center pt-5 pb-5">¿QUIÉNES SOMOS?</h2>
+        <h2 id="Quiénes-somos" class="text-light text-center pt-5 pb-5">¿QUIÉNES SOMOS?</h2>
         <div class="container row ps-5 ms-5 d-flex">
             <article class="text-light col-4 text-center">
                 <i class="fa-solid fa-plane" style="color: #ffffff;"></i>
@@ -102,7 +102,7 @@
 
     <!--DESTACADOS START-->
     <section>
-        <h2 class="text-light text-center pt-5 pb-5">DESTACADOS</h2>
+        <h2 id="Destacados" class="text-light text-center pt-5 pb-5">DESTACADOS</h2>
         <div class="container row ps-5 ms-4 mb-5">
             <div class="card col m-2 bg-card card border-secondary" style="width: 18rem;">
                 <img src="./assets/img/card1.jpg" class="card-img-top img-card " alt="...">
@@ -141,7 +141,7 @@
 
 
     <!--CONTACTO START-->
-    <h2 class="text-light text-center pt-5 pb-5">CONTACTO</h2>
+    <h2 id="Contacto" class="text-light text-center pt-5 pb-5">CONTACTO</h2>
     <section class="container pb-5">
         <div>
             <div class="mb-3">
