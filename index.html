@@ -158,9 +158,8 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
             </div>
         </div>
-        
-            <button type="button" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top"
-                data-bs-title="¡Esperamos tu mensaje!">Enviar</button>
+
+        <button data-bs-toggle="mensaje" data-bs-placement="right" data-bs-title="Gracias por ponerte en contacto con nosotros" type="button" class="btn btn-info">Enviar</button>
     </section>
     <!--CONTACTO END-->
 
@@ -190,6 +189,7 @@
 
 
 
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -201,6 +201,12 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="mensaje"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+    
 </body>
 
 </html>
