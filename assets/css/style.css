@@ -28,3 +28,11 @@ i {
 .card-text {
     text-align: left;
 }
+
+footer {
+    background-color: skyblue;
+}
+
+footer i {
+    align-items: end;
+}
