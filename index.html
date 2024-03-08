@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/10c2f26b27.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/svg" href="./assets/img/viajes.svg" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/js/style.js">
     <title>Viajes Chile</title>
 
 </head>
@@ -72,7 +73,7 @@
 
 
     <!--QUIÉNES SOMOS? START-->
-    <section>
+    <section class="d-sm-none d-md-block">
         <h2 id="Quiénes-somos" class="text-light text-center pt-5 pb-5">¿QUIÉNES SOMOS?</h2>
         <div class="container row ps-5 ms-5 d-flex">
             <article class="text-light col-4 text-center">
@@ -157,7 +158,9 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
             </div>
         </div>
-        <button type="button" class="btn btn-info">Enviar</button>
+        
+            <button type="button" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                data-bs-title="¡Esperamos tu mensaje!">Enviar</button>
     </section>
     <!--CONTACTO END-->
 
@@ -171,10 +174,14 @@
                 <p class="pt-3 ms-5 ps-5 text-light col-6">VIAJES CHILE</p>
             </div>
             <div class="col-2 d-flex text-right pt-3">
-                <a href="https://github.com/" target="_blank" class="col-2"><i class="fa-brands fa-square-github col-2" style="color: #ffffff;"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank" class="col-2"><i class="fa-brands fa-linkedin col-2" style="color: #ffffff;"></i></a>
-                <a href="https://twitter.com/?lang=es" target="_blank" class="col-2"> <i class="fa-brands fa-square-twitter col-2" style="color: #ffffff;"></i></a>
-                <a href="https://www.facebook.com/" target="_blank" class="col-2"><i class="fa-brands fa-square-facebook col-2" style="color: #ffffff;"></i></a>
+                <a href="https://github.com/" target="_blank" class="col-2"><i class="fa-brands fa-square-github col-2"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" class="col-2"><i class="fa-brands fa-linkedin col-2"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank" class="col-2"> <i
+                        class="fa-brands fa-square-twitter col-2" style="color: #ffffff;"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="col-2"><i
+                        class="fa-brands fa-square-facebook col-2" style="color: #ffffff;"></i></a>
             </div>
         </div>
     </footer>
